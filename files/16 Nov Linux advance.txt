@@ -1,0 +1,89 @@
+ 2038  mkdir -p r1/r2/r3---to create directory inside a directory 
+ 2039  ls
+ 2040  cd r1
+ 2041  ls
+ 2042  cd r2
+ 2043  ls
+ 2044  cd
+ 2045  ls -R----will get the structure how the folders and files are placed 
+ 2046  cd r1
+ 2047  ls -R
+ 2048  cd
+
+ 2053  ls -l------to get the permissions of the files and folders 
+
+ 2211  man mkdir-----mannual command 
+               press 'q'---to quit
+
+
+
+ 2001  touch file1 file2 file3 file4 file5 file6----to create multiple files at a time 
+ 2002  ls
+ 2003  mkdir folder1 folder2 folder3
+ 2004  ls
+ 2005  cp file1 folder1---(cp source destination)---to copy a file to destination
+ 2006  cd folder1
+ 2007  ls
+ 2008  cd
+ 2009  cp file2 file3 folder1----(cp source1 source2 destination)----copy multiple files
+ 2010  cd folder1
+ 2011  ls
+ 2012  cd
+ 2013  ls
+ 2014  ls folder1
+ 2015  ls
+ 2016  mv file4 folder2------(mv source destination)----to move a file to specific destination
+ 2017  cd folder2
+ 2018  ls
+ 2019  cd
+ 2020  ls
+ 2021  mv file5 file6 folder2---(mv source1 source2 destination)-----to move multiple files
+ 2022  cd folder2
+ 2023  ls
+ 2024  cd
+ 2025  ls
+ 2026  mkdir folder4
+ 2027  ls
+ 2028  cp folder3 folder4
+ 2030  cp -r folder3 folder4---(cp -r source destination)---to copy folder into folder
+ 2031  cd folder4
+ 2032  ls
+ 2033  cd
+ 2034  history
+ 2035  clear
+ 2036  history
+
+
+
+ 2063  #apt-----advanced packaging tool
+ 2064  apt-get update
+ 2065  sudo su----------to switch to the root user 
+ 2066  sudo apt-get update------------to update the os
+ 2067  sudo apt-get install apache2----------to install any package
+ 2068  sudo service apache2 status----to check the package service status
+ 2069  sudo service apache2 start---to start the service 
+ 2071  sudo service apache2 status
+ 2072  sudo service apache2 stop------to stop the service 
+ 2073  sudo service apache2 status
+
+
+
+ 2076  ps-----process status (current process)
+ 2077  ps -e------------to get the entire process 
+ 2078  sudo service apache2 start
+ 2079  ps -e
+ 2080  ps -alx----details reagarding the entire process running in our system
+ 2081  ps -f------front end process
+
+
+ 2237  rmdir folder1
+ 2238  rm -r folder1-----to delete or remove the non rmpty directory
+ 2239  ls
+ 2240  rmdir folder3----to delete a empty directory
+ 2241  ls
+ 2242  rm file1------to delete the empty of non empty file
+ 2243  ls
+ 2244  rm file2
+ 2245  ls
+       rm -r *---to delete  all the directories and files
+       rmdir .folder2 -------to delete the hidden directory
